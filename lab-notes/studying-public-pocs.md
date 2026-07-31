@@ -1,27 +1,14 @@
-# Studying Public Proof-of-Concepts (Safely)
+# studying public PoCs
 
-## Purpose of These Notes
-When learning about vulnerabilities, public PoCs and write-ups are useful for understanding how an issue works. This document records my personal approach to studying them in a responsible way.
+when I want to understand a vulnerability better I sometimes look at public PoCs and writeups.
 
-## Principles I Follow
-- Only use publicly released PoCs and write-ups
-- Run any experiments strictly inside isolated virtual machines or containers
-- Never point tools or PoCs at systems I do not own or have explicit written permission to test
-- Focus on understanding the root cause and the corresponding defensive controls
-- Document what I learned about detection and mitigation, not just the exploit steps
+how I approach it:
+- first read the official advisory / CVE description
+- then 1-2 solid public technical writeups
+- if there’s a PoC, I read through the code to see the technique
+- only run anything inside an isolated VM
+- afterwards I try to write down the root cause, what preconditions were needed, and what defensive controls would help
 
-## Typical Study Flow
-1. Read the official advisory / CVE description first
-2. Read 1–2 high-quality public technical write-ups
-3. If a PoC is available, review the code to understand the technique
-4. In a local lab, observe the behavior (where safe and legal)
-5. Write down:
-   - Root cause
-   - Preconditions required for exploitation
-   - What defensive measures would block or detect it
-   - How to recognize similar issues in the future
+I don’t collect working exploits. the point is to build better intuition about how these things work and how to stop them.
 
-## Why This Matters for Learning
-Understanding public cases builds pattern recognition. The goal is to get better at identifying weak points and thinking about defenses, not to collect working exploits.
-
-*These notes support personal defensive learning only.*
+always stay in lab environments. never point anything at systems I don’t own.

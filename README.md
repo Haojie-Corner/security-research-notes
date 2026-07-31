@@ -1,15 +1,11 @@
-# Security Research Notes
+# security research notes
 
-Personal learning notes focused on vulnerability research, public CVE analysis, and defensive security practices in lab / research environments.
+just some personal notes while learning about vulns and defensive stuff.
+mostly reading public CVEs and trying to understand them in a lab environment.
 
-This repository is for self-study and knowledge organization. Content is based on publicly available information and personal experiments in controlled environments.
+folders:
+- cve-notes → random CVE writeups I did for myself
+- lab-notes → how I set things up / how I study public stuff
+- defensive → things I picked up about defense
 
-## Structure
-
-- `cve-notes/` — Notes on publicly disclosed vulnerabilities
-- `lab-notes/` — Notes from personal lab and research experiments
-- `defensive/` — Defensive recommendations and learning summaries
-
-## Disclaimer
-
-All materials are for educational and defensive learning purposes only. No unauthorized testing or offensive activities are conducted or encouraged.
+this is purely for my own learning. nothing professional, nothing fancy.

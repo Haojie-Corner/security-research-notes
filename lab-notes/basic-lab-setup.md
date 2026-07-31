@@ -1,22 +1,18 @@
-# Basic Personal Lab Setup Notes
+# basic lab setup notes
 
-## Purpose
-Simple notes on setting up a local environment for learning vulnerability concepts and defensive analysis safely.
+just recording how I usually set things up for learning.
 
-## Tools Commonly Used (Learning Context)
-- Virtual machines (isolated)
-- Basic network analysis tools
-- Public vulnerability databases and write-ups
-- Static analysis of sample code
+I keep everything in isolated VMs. no touching real systems, obviously.
 
-## Principles Followed
-- Everything runs in isolated lab environments
-- Only public / authorized materials are used
-- Focus remains on understanding root causes and defensive measures
+tools I tend to use when studying:
+- VMs for isolation
+- basic network tools
+- public vulnerability databases and writeups
+- sometimes looking at sample code statically
 
-## Current Focus Areas
-- Understanding common vulnerability classes (e.g. injection, authentication issues)
-- Reading public CVE analyses and summarizing defensive recommendations
-- Practicing clear documentation of findings
+main rules I try to follow:
+- only public material
+- only in my own lab
+- focus on understanding why something is vulnerable and how to defend against it
 
-*Personal learning notes — not professional engagement reports.*
+currently spending more time on common vuln classes and reading public CVE analyses. trying to get better at writing clear notes about what I learned.
